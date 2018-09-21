@@ -24,6 +24,6 @@ public class HighScore : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Text gt = this.GetComponent<Text>();
-        gt.text = "High Score" + score;
+        gt.text = "High Score: " + score;
 	}
 }
